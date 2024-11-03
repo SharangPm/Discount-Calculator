@@ -1,0 +1,50 @@
+.calculator-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.discount-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.discount-form label {
+  font-weight: bold;
+}
+
+.discount-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.discount-form button {
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.discount-form button:hover {
+  background-color: #45A049;
+}
+
+.result-display {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.result-display h3 {
+  color: #333;
+}
